@@ -32,8 +32,8 @@ app.prepare().then(() => {
       origin:
         process.env.NODE_ENV === "production"
           ? [
-              process.env.FRONTEND_URL || "https://your-app.railway.app",
-              "https://your-app.railway.app",
+              process.env.FRONTEND_URL || "https://songshomie.up.railway.app/",
+              "https://songshomie.up.railway.app/",
               "https://your-custom-domain.com", // if you have one
             ]
           : ["http://localhost:3000", "http://127.0.0.1:3000"],
